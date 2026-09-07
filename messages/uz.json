@@ -1,0 +1,104 @@
+{
+  "Meta": {
+    "title": "Sarvarbek Samariddinov | Frontend Dasturchi & AI Muhandis",
+    "description": "Sarvarbek Samariddinov portfoliosi - Frontend Dasturchi, Prompt Muhandis va Kreativ UI/UX mutaxassisi, Toshkent, O'zbekiston."
+  },
+  "Nav": {
+    "about": "Men haqimda",
+    "skills": "Ko'nikmalar",
+    "experience": "Tajriba",
+    "projects": "Loyihalar",
+    "contact": "Aloqa",
+    "letsTalk": "Bog'lanish"
+  },
+  "Hero": {
+    "name": "Sarvarbek Samariddinov",
+    "available": "Innovatsion veb va AI loyihalar uchun ochiq",
+    "hello": "Salom, men",
+    "specialize": "Men quyidagilarga ixtisoslashganman:",
+    "description": "Toshkentdan yuqori samaradorlikka ega veb-ilovalar, LLM ish jarayonlari, immersiv 3D veb grafikalar va kelajak AI yechimlarini yarataman.",
+    "downloadCV": "Rezyumeni yuklab olish",
+    "viewProjects": "Loyihalarni ko'rish",
+    "contactMe": "Men bilan bog'lanish"
+  },
+  "About": {
+    "sectionTitle": "Kashfiyot",
+    "title": "Men haqimda",
+    "heading": "Eng yuqori standartdagi raqamli mahsulotlar va AI yechimlarini yaratish",
+    "p1": "Men Toshkentda joylashgan Frontend Dasturchi va Sertifikatlangan Prompt Muhandisman. Apple darajasidagi minimalizm va interaktiv 3D veb-texnologiyalariga qiziqishim bilan murakkab g'oyalar, LLM ish jarayonlari va AI tizimlarini intuitiv, o'ta tezkor veb-interfeyslarga aylantiraman.",
+    "p2": "Mening muhandislik falsafam pikselli mukammallik, Three.js/GSAP yordamida yuqori unumdor vizualizatsiya, Next.js va TypeScript-da toza modulli arxitektura hamda ilg'or Prompt Engineering va AI integratsiyalariga asoslanadi.",
+    "location": "JOYLASHUV",
+    "locationValue": "Toshkent, O'ZB",
+    "degree": "MA'LUMOT",
+    "degreeValue": "Kompyuter Muhandisligi",
+    "status": "HOLAT",
+    "statusValue": "Takliflar uchun ochiq",
+    "completedProjects": "Tugallangan Loyihalar",
+    "technologies": "Texnologiyalar",
+    "yearsExperience": "Yillik Tajriba",
+    "happyClients": "Xursand Mijozlar"
+  },
+  "Skills": {
+    "sectionTitle": "Texnologiyalar",
+    "title": "Texnik Arsenal",
+    "aiHeading": "Prompt Engineering va AI Tizimlari",
+    "aiDesc": "LLM System Promptlari, RAG Arxitekturasi, Avtonom AI Agentlari va Fine-Tuning",
+    "feHeading": "Frontend va Veb Muhandisligi",
+    "feDesc": "Zamonaviy Freymvorklar, State Management, 3D Web va Full-Stack Arxitekturasi",
+    "proficiency": "Daraja",
+    "certified": "Sertifikatlangan"
+  },
+  "Experience": {
+    "sectionTitle": "Yo'l",
+    "title": "Ish Tajribasi",
+    "fullTime": "To'liq vaqt",
+    "contract": "Shartnoma",
+    "freelance": "Frilans",
+    "jobs": {
+      "job1": {
+        "title": "Frontend Dasturchi & AI Muhandis",
+        "company": "Tech Solutions & Web Agency | Toshkent",
+        "date": "2024 - Hozirgacha",
+        "desc": "Next.js, TypeScript va Three.js yordamida yirik korporativ veb-ilovalarni front-end ishlab chiqishga rahbarlik qilaman. Dizayn tokenlarini standartlashtirdim va fayl o'lchamlarini 40% ga qisqartirdim."
+      },
+      "job2": {
+        "title": "Frontend Muhandis",
+        "company": "Fintech Solutions Lab",
+        "date": "2023 - 2024",
+        "desc": "Moslashuvchan admin panellari, real vaqtda ma'lumotlarni vizualizatsiya qilish va Zustand hamda React Query bilan REST API integratsiyalarini yaratdim. Murakkab autentifikatsiya jarayonlarini joriy qildim."
+      },
+      "job3": {
+        "title": "Full Stack Veb Dasturchi",
+        "company": "Global Raqamli Mijozlar",
+        "date": "2022 - 2023",
+        "desc": "Node.js, Express, Supabase va Tailwind CSS bilan 15 dan ortiq maxsus veb-ilovalarni muvaffaqiyatli topshirdim. Asosan sahifa tezligi, mobil moslashuvchanlik va SEO ko'rsatkichlarini optimallashtirishga e'tibor qaratdim."
+      }
+    }
+  },
+  "Projects": {
+    "sectionTitle": "Portfolio",
+    "title": "Asosiy Loyiha",
+    "crmManagement": "CRM Boshqaruv Tizimi",
+    "projectTitle": "Najot Ta'lim CRM Platformasi",
+    "projectDesc": "Ta'lim markazini boshqarish uchun yaratilgan to'liq funksional CRM tizimi. Talabalarni kuzatish, kurslarni boshqarish, rollarga asoslangan autentifikatsiya va real vaqtda tahlil paneli mavjud.",
+    "liveDemo": "Jonli Namuna"
+  },
+  "Contact": {
+    "sectionTitle": "Aloqa",
+    "title": "Men Bilan Bog'laning",
+    "directPhone": "To'g'ridan-to'g'ri Telefon",
+    "sendMessage": "Menga Xabar Yuboring",
+    "yourName": "Ismingiz",
+    "emailAddress": "Email",
+    "subject": "Mavzu",
+    "message": "Xabar",
+    "submit": "Xabarni Yuborish",
+    "success": "Xabar muvaffaqiyatli yuborildi!",
+    "locationMap": "XARITA",
+    "locationCity": "Toshkent, O'zbekiston",
+    "openMap": "Yandex Xaritada Ochish"
+  },
+  "Footer": {
+    "rights": "© 2026 Sarvarbek Samariddinov. Barcha huquqlar himoyalangan."
+  }
+}

@@ -1,0 +1,128 @@
+/* src/app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS from original index.html <style> tag */
+html, body {
+  background-color: #050816 !important;
+  color: #ffffff !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050816;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 92, 246, 0.4);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(56, 189, 248, 0.8);
+}
+
+/* Glassmorphism Utility */
+.glass-card {
+  background: rgba(15, 23, 42, 0.55);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+}
+.glass-card-hover {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.glass-card-hover:hover {
+  background: rgba(30, 41, 59, 0.75);
+  border-color: rgba(56, 189, 248, 0.5);
+  box-shadow: 0 12px 40px 0 rgba(56, 189, 248, 0.25);
+  transform: translateY(-4px);
+}
+
+/* AI Card Specific Glow */
+.ai-card-glow {
+  position: relative;
+  overflow: hidden;
+}
+.ai-card-glow::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at center, rgba(245, 158, 11, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+  opacity: 0;
+}
+.ai-card-glow:hover::before {
+  opacity: 1;
+}
+
+/* Tech Icon Badge Container */
+.icon-badge {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.glass-card:hover .icon-badge {
+  transform: scale(1.12) translateY(-2px);
+}
+
+/* Fullsite 3D WebGL Background Container */
+#webgl-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at 50% 50%, #0c122c 0%, #050816 100%);
+}
+
+header, section, footer, #scroll-progress, #loader, #back-to-top {
+  position: relative;
+  z-index: 10;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #38BDF8 0%, #8B5CF6 50%, #06B6D4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#loader {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background-color: #050816;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.bg-grid-pattern {
+  background-size: 50px 50px;
+  background-image: linear-gradient(to right, rgba(56, 189, 248, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(139, 92, 246, 0.04) 1px, transparent 1px);
+}
+
+/* Safelist for Tailwind to keep custom classes */
+@layer utilities {
+  /* You can add any additional utility classes here if needed */
+}

@@ -1,0 +1,104 @@
+{
+  "Meta": {
+    "title": "Sarvarbek Samariddinov | Frontend Developer & AI Engineer",
+    "description": "Portfolio of Sarvarbek Samariddinov - Frontend Developer, Prompt Engineer, and Creative UI/UX Specialist based in Tashkent, Uzbekistan."
+  },
+  "Nav": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "letsTalk": "Let's Talk"
+  },
+  "Hero": {
+    "name": "Sarvarbek Samariddinov",
+    "available": "Available for innovative web & AI projects",
+    "hello": "Hello, I'm",
+    "specialize": "I specialize in",
+    "description": "Crafting high-performance web applications, LLM workflows, immersive 3D web graphics, and next-gen AI solutions from Tashkent, Uzbekistan.",
+    "downloadCV": "Download CV",
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me"
+  },
+  "About": {
+    "sectionTitle": "Discovery",
+    "title": "About Me",
+    "heading": "Architecting standard-setting digital products & AI solutions",
+    "p1": "I am a passionate Frontend Developer & Certified Prompt Engineer based in Tashkent, Uzbekistan. With a meticulous eye for Apple-grade minimalism and interactive 3D web technologies, I transform complex ideas, LLM workflows, and AI systems into intuitive, ultra-fast web interfaces.",
+    "p2": "My engineering philosophy centers around pixel perfection, high-performance rendering with Three.js/GSAP, clean modular architecture in Next.js & TypeScript, and cutting-edge Prompt Engineering & AI integrations.",
+    "location": "LOCATION",
+    "locationValue": "Tashkent, UZB",
+    "degree": "DEGREE",
+    "degreeValue": "Computer Engineering",
+    "status": "STATUS",
+    "statusValue": "Open to Offers",
+    "completedProjects": "Completed Projects",
+    "technologies": "Technologies",
+    "yearsExperience": "Years Experience",
+    "happyClients": "Happy Clients"
+  },
+  "Skills": {
+    "sectionTitle": "Stack & Skills",
+    "title": "Technical Arsenal",
+    "aiHeading": "Prompt Engineering & AI Systems",
+    "aiDesc": "LLM System Prompts, RAG Architecture, Autonomous AI Agents & Fine-Tuning",
+    "feHeading": "Frontend & Web Engineering",
+    "feDesc": "Modern Frameworks, State Management, 3D Web & Full-Stack Architecture",
+    "proficiency": "Proficiency",
+    "certified": "Certified"
+  },
+  "Experience": {
+    "sectionTitle": "Journey",
+    "title": "Work Experience",
+    "fullTime": "Full-Time",
+    "contract": "Contract",
+    "freelance": "Freelance",
+    "jobs": {
+      "job1": {
+        "title": "Frontend Developer & AI Engineer",
+        "company": "Tech Solutions & Web Agency | Tashkent",
+        "date": "2024 - Present",
+        "desc": "Leading front-end development of enterprise web applications using Next.js, TypeScript, and Three.js. Standardized design tokens and optimized bundle sizes by 40%."
+      },
+      "job2": {
+        "title": "Frontend Engineer",
+        "company": "Fintech Solutions Lab",
+        "date": "2023 - 2024",
+        "desc": "Built responsive admin dashboards, real-time data visualization charts, and REST API integrations with Zustand and React Query. Implemented complex authentication flows."
+      },
+      "job3": {
+        "title": "Full Stack Web Developer",
+        "company": "Global Digital Clients",
+        "date": "2022 - 2023",
+        "desc": "Delivered 15+ custom web applications with Node.js, Express, Supabase, and Tailwind CSS. Focused on high-speed page performance, mobile adaptability, and SEO score optimization."
+      }
+    }
+  },
+  "Projects": {
+    "sectionTitle": "Portfolio",
+    "title": "Featured Project",
+    "crmManagement": "CRM Management System",
+    "projectTitle": "Najot Ta'lim CRM Platform",
+    "projectDesc": "Full-featured CRM system built for educational center management. Includes student tracking, course management, role-based login authentication, and real-time dashboard analytics.",
+    "liveDemo": "Live Demo"
+  },
+  "Contact": {
+    "sectionTitle": "Communication",
+    "title": "Get In Touch",
+    "directPhone": "Direct Phone",
+    "sendMessage": "Send Me a Direct Message",
+    "yourName": "Your Name",
+    "emailAddress": "Email Address",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Send Message",
+    "success": "Message sent successfully!",
+    "locationMap": "LOCATION MAP",
+    "locationCity": "Tashkent, Uzbekistan",
+    "openMap": "Open in Yandex Maps"
+  },
+  "Footer": {
+    "rights": "© 2026 Sarvarbek Samariddinov. All rights reserved."
+  }
+}
